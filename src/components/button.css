@@ -4,9 +4,8 @@
   Button
 */
 .button {
-  @apply font-sans border-xs border-solid rounded-xs inline-flex justify-center items-center hover:cursor-pointer disabled:cursor-not-allowed;
+  @apply font-sans border-xs border-solid rounded-none inline-flex justify-center items-center hover:cursor-pointer disabled:cursor-not-allowed;
 }
-
 /*
   Variant
 */
@@ -14,7 +13,6 @@
   @apply bg-surface-primary-default border-border-primary-default text-content-primary-default;
 }
 .button--primary:hover {
-  @apply bg-surface-primary-hover border-border-primary-hover text-content-primary-hover;
 }
 .button--primary:disabled {
   @apply bg-surface-primary-disabled border-border-primary-disabled text-content-primary-disabled;
