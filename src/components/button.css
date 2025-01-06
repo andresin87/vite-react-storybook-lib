@@ -4,7 +4,7 @@
   Button
 */
 .button {
-  @apply font-sans border-xs border-solid rounded-none inline-flex justify-center items-center hover:cursor-pointer disabled:cursor-not-allowed;
+  @apply font-sans border-xs border-solid rounded-sm inline-flex justify-center items-center hover:cursor-pointer disabled:cursor-not-allowed;
 }
 /*
   Variant
